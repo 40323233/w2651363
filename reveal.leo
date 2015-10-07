@@ -37,7 +37,7 @@
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
-<v t=".20151007132216.1"><vh>@edit 2015cphww4.md</vh></v>
+<v t=".20151007141428.1"><vh>@edit 2015cphww4.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -511,6 +511,20 @@
 <v t=".20151007131756.4"><vh>new:html 標註</vh></v>
 </v>
 </v>
+<v t=".20151007141338.1" a="E"><vh>Recovered Nodes</vh>
+<v t=".20151007141338.2"><vh>Recovered node "有關我的作業" from @clean simplest.html</vh>
+<v t=".20151007141338.3"><vh>old:有關我的作業</vh></v>
+<v t=".20151007141338.4"><vh>new:有關我的作業</vh></v>
+</v>
+<v t=".20151007141338.5"><vh>Recovered node "作業任務一" from @clean simplest.html</vh>
+<v t=".20151007141338.6"><vh>old:作業任務一</vh></v>
+<v t=".20151007141338.7"><vh>new:作業任務一</vh></v>
+</v>
+<v t=".20151007141338.8"><vh>Recovered node "第3張投影片" from @clean simplest.html</vh>
+<v t=".20151007141338.9"><vh>old:第3張投影片</vh></v>
+<v t=".20151007141338.10"><vh>new:第3張投影片</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx=".20151007131756.1"></t>
@@ -630,6 +644,86 @@ Diff...
 				
 </t>
 <t tx=".20151007132424.9">&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx=".20151007141338.1"></t>
+<t tx=".20151007141338.10">&lt;section&gt;
+    &lt;h2&gt;自評&lt;/h2&gt;
+    &lt;p&gt;因為這學期的電腦輔助設計，比較困難所以有許多問題還是要問同學，因此筆記要多做一點，我給自己的分數是75分&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx=".20151007141338.2">(uncached) amd.20150915211351.7
+Diff...
+  &lt;!-- 以下為投影片 --&gt;
+  &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+  &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+  &lt;section&gt;
+-     &lt;h3&gt;四設計二乙&lt;/h3&gt;
+-     &lt;p&gt;40323233 張維元&lt;/p&gt;		
++     &lt;h1&gt;有關我的作業&lt;/h1&gt;
++     &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+  &lt;/section&gt;
+  	
+</t>
+<t tx=".20151007141338.3">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;有關我的作業&lt;/h1&gt;
+    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx=".20151007141338.4">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h3&gt;四設計二乙&lt;/h3&gt;
+    &lt;p&gt;40323233 張維元&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx=".20151007141338.5">(uncached) amd.20150915211351.9
+Diff...
+  &lt;section id="hw-task-one"&gt;
+-     &lt;h2&gt;步驟&lt;/h2&gt;
+-     &lt;p&gt;先 cd tmp&lt;br&gt;git clone 加網址，在空白處加檔名&lt;br&gt;cd 新資料夾 copy&lt;br&gt;git add-A&lt;br&gt;git commit-m"initiol add"&lt;br&gt;git comting global user email打自己的電子信箱&lt;br&gt;git push origin(master/gh-pages)name打自己的學號-&lt;/p&gt;
+-    
++     &lt;h1&gt;作業任務一&lt;/h1&gt;
++     &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
++     &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+  &lt;/section&gt;
++ 				
+</t>
+<t tx=".20151007141338.6">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;作業任務一&lt;/h1&gt;
+    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx=".20151007141338.7">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;步驟&lt;/h2&gt;
+    &lt;p&gt;先 cd tmp&lt;br&gt;git clone 加網址，在空白處加檔名&lt;br&gt;cd 新資料夾 copy&lt;br&gt;git add-A&lt;br&gt;git commit-m"initiol add"&lt;br&gt;git comting global user email打自己的電子信箱&lt;br&gt;git push origin(master/gh-pages)name打自己的學號-&lt;/p&gt;
+   
+&lt;/section&gt;
+</t>
+<t tx=".20151007141338.8">(uncached) amd.20150915211351.12
+Diff...
+  &lt;section&gt;
+-     &lt;h2&gt;自評&lt;/h2&gt;
+-     &lt;p&gt;因為這學期的電腦輔助設計，比較困難所以有許多問題還是要問同學，因此筆記要多做一點，我給自己的分數是75分&lt;/p&gt;
++     &lt;h1&gt;第3張投影片&lt;/h1&gt;
++     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
++     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+  &lt;/section&gt;
++ 				
+</t>
+<t tx=".20151007141338.9">&lt;section&gt;
     &lt;h1&gt;第3張投影片&lt;/h1&gt;
     &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
@@ -2131,11 +2225,9 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
-    &lt;h1&gt;第3張投影片&lt;/h1&gt;
-    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
-    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+    &lt;h2&gt;自評&lt;/h2&gt;
+    &lt;p&gt;因為這學期的電腦輔助設計，比較困難所以有許多問題還是要問同學，因此筆記要多做一點，我給自己的分數是75分&lt;/p&gt;
 &lt;/section&gt;
-				
 </t>
 <t tx="amd.20150915211351.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
@@ -2164,17 +2256,16 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;有關我的作業&lt;/h1&gt;
-    &lt;p&gt;學號姓名與日期&lt;/p&gt;		
+    &lt;h3&gt;四設計二乙&lt;/h3&gt;
+    &lt;p&gt;40323233 張維元&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
 <t tx="amd.20150915211351.9">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;作業任務一&lt;/h1&gt;
-    &lt;p&gt;有關作業任務一的說明&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+    &lt;h2&gt;步驟&lt;/h2&gt;
+    &lt;p&gt;先 cd tmp&lt;br&gt;git clone 加網址，在空白處加檔名&lt;br&gt;cd 新資料夾 copy&lt;br&gt;git add-A&lt;br&gt;git commit-m"initiol add"&lt;br&gt;git comting global user email打自己的電子信箱&lt;br&gt;git push origin(master/gh-pages)name打自己的學號-&lt;/p&gt;
+   
 &lt;/section&gt;
-				
 </t>
 <t tx="amd.20150917085040.1">&lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
