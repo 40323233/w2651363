@@ -39,6 +39,9 @@
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t=".20151007141428.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="40323233.20151018192839.1"><vh>@edit 2015cphww5.md</vh></v>
+<v t="40323233.20151106160320.1"><vh>@edit 2015cphww6.md</vh></v>
+<v t="40323233.20151106160323.1"><vh>@edit 2015cphww7.md</vh></v>
+<v t="40323233.20151106160318.1"><vh>@edit 2015cphww8.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -299,7 +302,7 @@
 </v>
 </v>
 </v>
-<v t=".20151007132424.1" a="E"><vh>@clean simplest2.html</vh>
+<v t=".20151007132424.1"><vh>@clean simplest2.html</vh>
 <v t=".20151007132424.2"><vh>檔案說明</vh></v>
 <v t=".20151007132424.3" a="E"><vh>html 標註</vh>
 <v t=".20151007132424.4" a="E"><vh>body 標註</vh>
@@ -314,7 +317,7 @@
 </v>
 </v>
 </v>
-<v t="40323233.20151018192849.1" a="E"><vh>@clean simplest3.html</vh>
+<v t="40323233.20151018192849.1"><vh>@clean simplest3.html</vh>
 <v t="40323233.20151018192849.2"><vh>檔案說明</vh></v>
 <v t="40323233.20151018192849.3" a="E"><vh>html 標註</vh>
 <v t="40323233.20151018192849.4" a="E"><vh>body 標註</vh>
@@ -326,6 +329,36 @@
 </v>
 </v>
 <v t="40323233.20151018192849.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323233.20151106160654.1" a="E"><vh>@clean simplest4.html</vh>
+<v t="40323233.20151106160654.2"><vh>檔案說明</vh></v>
+<v t="40323233.20151106160654.3" a="E"><vh>html 標註</vh>
+<v t="40323233.20151106160654.4" a="E"><vh>body 標註</vh>
+<v t="40323233.20151106160654.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323233.20151106160654.6" a="E"><vh>div class="slides"</vh>
+<v t="40323233.20151106160654.7"><vh>有關我的作業</vh></v>
+<v t="40323233.20151106160654.8"><vh>作業任務一</vh></v>
+<v t="40323233.20151106160654.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="40323233.20151106160654.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="40323233.20151106160653.1" a="E"><vh>@clean simplest5.html</vh>
+<v t="40323233.20151106160653.2"><vh>檔案說明</vh></v>
+<v t="40323233.20151106160653.3" a="E"><vh>html 標註</vh>
+<v t="40323233.20151106160653.4" a="E"><vh>body 標註</vh>
+<v t="40323233.20151106160653.5" a="E"><vh>div class="reveal"</vh>
+<v t="40323233.20151106160653.6" a="E"><vh>div class="slides"</vh>
+<v t="40323233.20151106160653.7"><vh>有關我的作業</vh></v>
+<v t="40323233.20151106160653.8"><vh>作業任務一</vh></v>
+<v t="40323233.20151106160653.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="40323233.20151106160653.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -664,6 +697,153 @@
 <t tx="40323233.20151018192849.9">&lt;section&gt;
     &lt;h1&gt;自評&lt;/h1&gt;
     &lt;p&gt;自評分數:75&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="40323233.20151106160653.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323233.20151106160653.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323233.20151106160653.2">﻿&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323233.20151106160653.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323233.20151106160653.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323233.20151106160653.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323233.20151106160653.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323233.20151106160653.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;第三次作業&lt;/h1&gt;
+    &lt;p&gt;40323233張維元10 / 18&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323233.20151106160653.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;摘要與心得&lt;/h1&gt;
+    &lt;p&gt;第七週的作業是繪製腳踏車零件，整體上我們需要把腳踏車所有的尺寸先都
+量出來，並且知道是哪些部位，這次的作業上也讓我們了解到腳踏車得整體結構
+，然後一些有曲面的地方比較麻煩一點
+，例:坐墊。這個需要思考要如何畫出來。整體上要花一些時間才能夠完成。&lt;/p&gt;
+
+&lt;/section&gt;
+				
+</t>
+<t tx="40323233.20151106160653.9">&lt;section&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;自評分數:70&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="40323233.20151106160654.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="40323233.20151106160654.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="40323233.20151106160654.2">﻿&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="40323233.20151106160654.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="40323233.20151106160654.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="40323233.20151106160654.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323233.20151106160654.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="40323233.20151106160654.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;第三次作業&lt;/h1&gt;
+    &lt;p&gt;40323233張維元10 / 18&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="40323233.20151106160654.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;摘要與心得&lt;/h1&gt;
+    &lt;p&gt;
+第六週的作業我是補拍的，把拍好的影片先傳到Vimeo，然後在推上去。拍攝的過程要注意save的時候，有沒有產生一大串文字警告。
+&lt;/p&gt;
+
+&lt;/section&gt;
+				
+</t>
+<t tx="40323233.20151106160654.9">&lt;section&gt;
+    &lt;h1&gt;自評&lt;/h1&gt;
+    &lt;p&gt;自評分數:70&lt;/a&gt;
 &lt;/section&gt;
 				
 </t>
