@@ -20,7 +20,7 @@
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
 </v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20150919103428.1"><vh>reveal.js 設定</vh></v>
 <v t="amd.20150919103341.1"><vh>Jupyter 設定</vh>
@@ -483,7 +483,7 @@
 </v>
 </v>
 </v>
-<v t="1.20151229230315.1"><vh>@clean simplest12.html</vh>
+<v t="1.20151229230315.1" a="E"><vh>@clean simplest12.html</vh>
 <v t="1.20151229230315.2"><vh>檔案說明</vh></v>
 <v t="1.20151229230315.3" a="E"><vh>html 標註</vh>
 <v t="1.20151229230315.4" a="E"><vh>body 標註</vh>
@@ -1386,7 +1386,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40323233"; }&lt;/style&gt
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;&lt; header &gt;&gt;
     &lt;section&gt;
-    &lt;h2&gt;第十三週作業&lt;/h2&gt;
+    &lt;h2&gt;第十六週&lt;/h2&gt;
     &lt;p&gt;40323233張維元&lt;/p&gt;
     &lt;/section&gt;
     		
